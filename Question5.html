@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html Forms </title>
+</head>
+<body>
+    <h1>html  Form</h1>
+    <form action="" method="POST">
+        <fieldset>
+            <legend>Academic Information</legend>
+            <label for="degree">Degree:</label><br>
+            <input type="text" id="degree" name="degree" placeholder="Master of Business Administration"><br>
+            <label for="studentID">Student id:</label><br>
+            <input type="text" id="studentID" name="studentID"><br>
+            <label for="classes">Classes attended:</label><br>
+            <input type="text" id="classes" name="classes" placeholder="Geography, Mathematics, English"><br>
+        </fieldset>
+        <fieldset>
+            <legend>Personal Details</legend>
+            <label for="firstName">First Name:</label><br>
+            <input type="text" id="firstName" name="firstName"><br>
+            <label for="lastName">Last Name:</label><br>
+            <input type="text" id="lastName" name="lastName"><br>
+            <label>Gender:</label><br>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br>
+        </fieldset>
+        
+        <fieldset>
+            <legend>TERMS AND CONDITIONS</legend>
+            <input type="checkbox" id="terms" name="terms">
+        </fieldset>
+        
+        <input type="submit" value="Send Form">
+        <input type="reset" value="Clear Form">
+    </form>
+</body>
+</html>
